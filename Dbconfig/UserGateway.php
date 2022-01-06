@@ -2,7 +2,7 @@
 
 class UserGateway
 { 
-    private PDO $conn;   
+    //private PDO $conn;   
     public function __construct(Database $database)
     {
         $this->conn = $database->getConnection();    
